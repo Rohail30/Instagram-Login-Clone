@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Instagram Sans Script', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 174px;
+    height: 50px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+
+.image img{
+    width: 174px;
+    height: 50px;
+}
+
+.form{
+    width: 350px;
+    height: 330px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.seperator {
+    height: 1px;
+    width: 259px;
+    margin: 25px 0;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seperator::before{
+    content: "OR";
+    color: #6C757D;
+    font-size: 13px;
+    padding: 0 15px;
+    margin-top: -4px;
+    background: #fff;
+}
+
+.form input{
+    width: 259px;
+    height: 36px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px solid black;
+}
+
+.form input::placeholder{
+    padding-left: 8px;
+}
+
+.form button{
+    margin-top: 10px;
+    width: 259px;
+    height: 32px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 600;
+    color: white;
+    background-color: #4cb5f9;
+}
+
+form{
+    margin-top: 30px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form p{
+    margin-bottom: 15px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 75px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.sign-up p{
+    font-size: 14px;
+}
+
+.facebook{
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook img{
+    margin-right: 5px;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.gplay img{
+    width: 135px;
+    height: 40px;
+}
